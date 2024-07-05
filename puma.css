@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.nav1{
+    width: 100%;
+    height:5vh;
+    background-color: rgb(139, 116, 86);
+}
+.parent{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(230, 236, 236);
+    position: relative;
+}
+.nav1 h4{
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 5vh;
+
+}
+.nav2{
+    background-color: rgb(23, 19, 19);
+    width: 100%;
+    height: 10vh;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.left{
+    width: 50%;
+   
+}
+.left ul{
+    line-height: 10vh;
+    /* padding-right: 870px; */
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.left ul img{
+    width: 30px;
+    height:30px;
+    margin-top: 25px;
+}
+.right{
+    width: 25%;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 20px;
+}
+.right ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 70%;
+}
+.right ul img{
+    width: 30px;
+    height:30px;
+    padding: 5px;
+}
+/* .right li input[type=text]{
+    height: 30px;
+    width: auto;
+    text-align: center;
+    color: black;
+} */
+.container{
+    width: 100%;
+    height:50vh;
+    background: linear-gradient(90deg,rgb(227, 154, 205),rgb(211, 18, 156),rgb(211, 18, 156),rgb(196, 59, 155),rgb(243, 40, 182),rgb(211, 18, 156),rgb(189, 92, 160));
+}
+.srbar{
+    margin-top: 20px;
+    width: auto;
+    height: 5vh;
+    border: 1px solid rgb(107, 92, 92);
+    display: flex;
+    justify-content: space-between;
+}
+.srbar img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.srbar h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 5vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+.left li:hover{
+    text-decoration: underline rgb(139, 116, 86);;
+    text-underline-offset: 7px;
+}
+.srbar:hover{
+    border: 1px solid white;
+}
+.right ul li{
+    height: 40px;
+    width: 40px;
+}
+.right li:hover{
+    background-color: gray;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+.one h1{
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 100px;
+    font-size: 45px;
+}
+.two h2{
+    text-align: center;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
